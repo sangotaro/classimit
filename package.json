@@ -1,0 +1,29 @@
+{
+  "name": "classimit",
+  "version": "0.0.1",
+  "description": "Minimum class imitation library",
+  "homepage": "https://github.com/sangotaro/classimit",
+  "author": {
+    "name": "Shotaro Watanabe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sangotaro/classimit.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "grunt simplemocha"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-simple-mocha": "~0.4.0",
+    "chai": "~1.8.1"
+  }
+}
